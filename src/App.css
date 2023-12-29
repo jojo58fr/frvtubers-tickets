@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@font-face {
+  font-family: 'autobusbold';
+  src: url('/font/Autobus-Bold.ttf');
+}
+
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+.ticket {
+  width: 100%;
+  height: auto;
+}
+
+ /* Container holding the image and the text */
+ .container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container_discord {
+  position: absolute;
+  width: 14%;
+  height: 5.5%;
+  /*background-color: red; --FOR DEBUG PURPOSE*/
+  top: 46%;
+  left: 7.2%;
+}
+
+.discord_username {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /*font-size: 30px;*/
+}
+
+.container_generatedNum {
+  position: absolute;
+  width: 14%;
+  height: 5.5%;
+  /*background-color: red; --FOR DEBUG PURPOSE*/
+  top: 18%;
+  left: 7.2%;
+}
+
+.generatedNum {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.class_title {
+  position: absolute;
+  top: 34%;
+  left: 29%;
+  font-size: 30px;
+}
+
+.class_title_2 {
+  position: absolute;
+  top: 37%;
+  left: 29%;
+  font-size: 30px;
+}
+
+.flight_title {
+  position: absolute;
+  top: 40%;
+  left: 29%;
+  font-size: 30px;
+}
+
+.flight_title_2 {
+  position: absolute;
+  top: 43%;
+  left: 29%;
+  font-size: 30px;
+}
+
+.profil_img {
+  position: absolute;
+  top: 25%;
+  left: 8.4%;
+  
+  width: 213px;
+  height: 213px;
+  border-radius: 10px;
+}
